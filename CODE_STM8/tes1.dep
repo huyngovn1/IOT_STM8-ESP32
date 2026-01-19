@@ -1,0 +1,26 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h"  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h inc\stm8s_gpio.h  inc\stm8s_tim4.h inc\stm8s_uart1.h inc\sw_i2c.h
+
+[Root.Source Files.src\stm8s_clk.c.Config.0]
+ExternDep= src\stm8s_clk.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h" inc\stm8s_clk.h  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_gpio.h
+
+[Root.Source Files.src\stm8s_gpio.c.Config.0]
+ExternDep= src\stm8s_gpio.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h" inc\stm8s_gpio.h  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h
+
+[Root.Source Files.src\stm8s_tim4.c.Config.0]
+ExternDep= src\stm8s_tim4.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h" inc\stm8s_tim4.h  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h inc\stm8s_gpio.h
+
+[Root.Source Files.src\stm8s_uart1.c.Config.0]
+ExternDep= src\stm8s_uart1.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h" inc\stm8s_uart1.h  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h inc\stm8s_gpio.h
+
+[Root.Source Files.src\sw_i2c.c.Config.0]
+ExternDep= src\sw_i2c.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h" inc\sw_i2c.h  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h inc\stm8s_gpio.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\HSTM8\mods0.h"
